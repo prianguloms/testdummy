@@ -1,0 +1,15 @@
+[submodule "cppast-master/type_safe"]
+	path = cppast-master/type_safe
+	url = https://github.com/foonathan/type_safe.git
+[submodule "cppast-master/external/type_safe"]
+	path = cppast-master/external/type_safe
+	url = https://github.com/foonathan/type_safe.git
+[submodule "cppast-master/external/tiny-process-library"]
+	path = cppast-master/external/tiny-process-library
+	url = https://gitlab.com/eidheim/tiny-process-library.git
+[submodule "cppast-master/external/cxxopts"]
+	path = cppast-master/external/cxxopts
+	url = https://github.com/jarro2783/cxxopts.git
+[submodule "cppast-master/external/llvm-project"]
+	path = cppast-master/external/llvm-project
+	url = https://github.com/llvm/llvm-project.git

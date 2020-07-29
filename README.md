@@ -68,7 +68,7 @@ Setting your environment might take up to 1hr.
 
 - **C++ coding in VS Code**. 
 Please follow instructions in this link: 
-https://code.visualstudio.com/docs/cpp/ceonfig-msvc, you can stop before "Create Hello World" section. We already have the latter in this folder.
+https://code.visualstudio.com/docs/cpp/config-msvc, you can stop before "Create Hello World" section. We already have the latter in this folder.
 - **Compile and run helloworld**. Helloworld project is our case study, we'll generate a test project for it. You can find its code base in this same folder. Helloworld project already contains both tasks.json and launch.json, the first one is required for building, the second for running. You can build using Terminal > Run Build Task. You can run and debug using Run > Start Debugging.
 
 

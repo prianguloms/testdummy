@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: D:/testdummyrepo/cppast-master/test
+# Build directory: D:/testdummyrepo/cppast-master/build/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(unit_test "D:/testdummyrepo/cppast-master/build/test/Debug/cppast_test.exe" "~[integration]")
+  set_tests_properties(unit_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;51;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(unit_test "D:/testdummyrepo/cppast-master/build/test/Release/cppast_test.exe" "~[integration]")
+  set_tests_properties(unit_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;51;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(unit_test "D:/testdummyrepo/cppast-master/build/test/MinSizeRel/cppast_test.exe" "~[integration]")
+  set_tests_properties(unit_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;51;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(unit_test "D:/testdummyrepo/cppast-master/build/test/RelWithDebInfo/cppast_test.exe" "~[integration]")
+  set_tests_properties(unit_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;51;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+else()
+  add_test(unit_test NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(integration_test "D:/testdummyrepo/cppast-master/build/test/Debug/cppast_test.exe" "[integration]")
+  set_tests_properties(integration_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;52;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(integration_test "D:/testdummyrepo/cppast-master/build/test/Release/cppast_test.exe" "[integration]")
+  set_tests_properties(integration_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;52;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(integration_test "D:/testdummyrepo/cppast-master/build/test/MinSizeRel/cppast_test.exe" "[integration]")
+  set_tests_properties(integration_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;52;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(integration_test "D:/testdummyrepo/cppast-master/build/test/RelWithDebInfo/cppast_test.exe" "[integration]")
+  set_tests_properties(integration_test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/test/CMakeLists.txt;52;add_test;D:/testdummyrepo/cppast-master/test/CMakeLists.txt;0;")
+else()
+  add_test(integration_test NOT_AVAILABLE)
+endif()

@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\Microsoft.NuGet.ImportBefore.props(16,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\Microsoft.NuGet.ImportBefore.props (16,3)". This is most likely a build authoring error. This subsequent import will be ignored. [D:\testdummyrepo\cppast-master\build\test\cppast_test.vcxproj]
+C:\Program Files (x86)\MSBuild\Current\Microsoft.Common.targets\ImportAfter\Microsoft.NuGet.ImportAfter.targets(16,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Microsoft.Common.targets\ImportAfter\Microsoft.NuGet.ImportAfter.targets (16,3)". This is most likely a build authoring error. This subsequent import will be ignored. [D:\testdummyrepo\cppast-master\build\test\cppast_test.vcxproj]
+  Building Custom Rule D:/testdummyrepo/cppast-master/test/CMakeLists.txt
+  test.cpp
+  code_generator.cpp
+  cpp_alias_template.cpp
+  cpp_attribute.cpp
+  cpp_class.cpp
+  cpp_class_template.cpp
+  cpp_enum.cpp
+  cpp_friend.cpp
+  cpp_function.cpp
+  cpp_function_template.cpp
+  cpp_language_linkage.cpp
+  cpp_member_function.cpp
+  cpp_member_variable.cpp
+  cpp_namespace.cpp
+  cpp_preprocessor.cpp
+  cpp_static_assert.cpp
+  cpp_template_parameter.cpp
+  cpp_token.cpp
+  cpp_type_alias.cpp
+  cpp_variable.cpp
+  Generating Code...
+  Compiling...
+  integration.cpp
+  libclang_parser.cpp
+  parser.cpp
+  preprocessor.cpp
+  visitor.cpp
+  Generating Code...
+  cppast_test.vcxproj -> D:\testdummyrepo\cppast-master\build\test\Debug\cppast_test.exe

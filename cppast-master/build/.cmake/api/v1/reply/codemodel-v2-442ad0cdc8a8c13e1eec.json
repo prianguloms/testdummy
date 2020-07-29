@@ -1,0 +1,1548 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "external/type_safe",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/type_safe",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external/type_safe/external/debug_assert",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/type_safe/external/debug_assert",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "external/cxxopts",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/cxxopts/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "external/cxxopts/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/test",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "example",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "tool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tool",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "cppast",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TYPE_SAFE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DEBUG_ASSERT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "cxxopts",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-e072f23643f4b29bac14.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@90159ba5fc7e2b8a1389",
+					"jsonFile" : "target-ALL_BUILD-Debug-df098a6d827e72bc0a83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@79993d7452dd04b15938",
+					"jsonFile" : "target-ALL_BUILD-Debug-4b4bf7981157a5a02ed4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@405efa9f0fb9231605f3",
+					"jsonFile" : "target-ALL_BUILD-Debug-7abb64d028e6287c1470.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-fd3a2bac6348fa2ab3c3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_cppast_tiny_process::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_cppast_tiny_process-Debug-139e4de5715226e11738.json",
+					"name" : "_cppast_tiny_process",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cppast::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cppast-Debug-1edc948268417ebc8b3d.json",
+					"name" : "cppast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_ast_printer::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_ast_printer-Debug-895b9a1156af39ec95e4.json",
+					"name" : "cppast_example_ast_printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_comparison::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_comparison-Debug-ee6eaa61ac4b7f1b0745.json",
+					"name" : "cppast_example_comparison",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_documentation_generator::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_documentation_generator-Debug-62730dc4e88318ce59e4.json",
+					"name" : "cppast_example_documentation_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_category::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_category-Debug-874c0e7879a18d4f7310.json",
+					"name" : "cppast_example_enum_category",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_to_string::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_to_string-Debug-ac1e9441509517ab587a.json",
+					"name" : "cppast_example_enum_to_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_serialization::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_serialization-Debug-bd268b7b79f8f221fbed.json",
+					"name" : "cppast_example_serialization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cppast_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cppast_test-Debug-2b17b20f6156daa6a963.json",
+					"name" : "cppast_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "cppast_tool::@3475fea270df04150876",
+					"jsonFile" : "target-cppast_tool-Debug-143f07cee58953fb4d43.json",
+					"name" : "cppast_tool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "example::@bcd2ae157a273ec79018",
+					"jsonFile" : "target-example-Debug-cdf02a1a4d595c251401.json",
+					"name" : "example",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "link_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-link_test-Debug-c383dbb10e3c1abc2fd1.json",
+					"name" : "link_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "options_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-options_test-Debug-a01651678f3167eddede.json",
+					"name" : "options_test",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "external/type_safe",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/type_safe",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external/type_safe/external/debug_assert",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/type_safe/external/debug_assert",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "external/cxxopts",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/cxxopts/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "external/cxxopts/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/test",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "example",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "tool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tool",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "cppast",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TYPE_SAFE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DEBUG_ASSERT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "cxxopts",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-e072f23643f4b29bac14.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@90159ba5fc7e2b8a1389",
+					"jsonFile" : "target-ALL_BUILD-Release-df098a6d827e72bc0a83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@79993d7452dd04b15938",
+					"jsonFile" : "target-ALL_BUILD-Release-4b4bf7981157a5a02ed4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@405efa9f0fb9231605f3",
+					"jsonFile" : "target-ALL_BUILD-Release-7abb64d028e6287c1470.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-fd3a2bac6348fa2ab3c3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_cppast_tiny_process::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_cppast_tiny_process-Release-6f39ce6f783dd9aa9855.json",
+					"name" : "_cppast_tiny_process",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cppast::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cppast-Release-a5dec61498c060fe66f0.json",
+					"name" : "cppast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_ast_printer::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_ast_printer-Release-c1334f194af1bdc7e57b.json",
+					"name" : "cppast_example_ast_printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_comparison::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_comparison-Release-cc547af14fc499f6cf85.json",
+					"name" : "cppast_example_comparison",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_documentation_generator::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_documentation_generator-Release-ff1e39b94ea0fe9fb0b5.json",
+					"name" : "cppast_example_documentation_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_category::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_category-Release-ba5e278893fe6737c159.json",
+					"name" : "cppast_example_enum_category",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_to_string::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_to_string-Release-fbf368ba8b4cb152e30b.json",
+					"name" : "cppast_example_enum_to_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_serialization::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_serialization-Release-b4cac52e4f442c3da150.json",
+					"name" : "cppast_example_serialization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cppast_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cppast_test-Release-9559559649a03e6877ec.json",
+					"name" : "cppast_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "cppast_tool::@3475fea270df04150876",
+					"jsonFile" : "target-cppast_tool-Release-003db505700502b7c5d4.json",
+					"name" : "cppast_tool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "example::@bcd2ae157a273ec79018",
+					"jsonFile" : "target-example-Release-5dba32e7271b9881d13d.json",
+					"name" : "example",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "link_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-link_test-Release-993923a5a57d9abe6022.json",
+					"name" : "link_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "options_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-options_test-Release-c08e875da4977851d835.json",
+					"name" : "options_test",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "external/type_safe",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/type_safe",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external/type_safe/external/debug_assert",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/type_safe/external/debug_assert",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "external/cxxopts",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/cxxopts/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "external/cxxopts/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/test",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "example",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "tool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tool",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "cppast",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TYPE_SAFE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DEBUG_ASSERT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "cxxopts",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e072f23643f4b29bac14.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@90159ba5fc7e2b8a1389",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-df098a6d827e72bc0a83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@79993d7452dd04b15938",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4b4bf7981157a5a02ed4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@405efa9f0fb9231605f3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7abb64d028e6287c1470.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-fd3a2bac6348fa2ab3c3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_cppast_tiny_process::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_cppast_tiny_process-MinSizeRel-7afb38ae082352346498.json",
+					"name" : "_cppast_tiny_process",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cppast::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cppast-MinSizeRel-22241898ea8fe12b9974.json",
+					"name" : "cppast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_ast_printer::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_ast_printer-MinSizeRel-1dcbcb32227dc8948038.json",
+					"name" : "cppast_example_ast_printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_comparison::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_comparison-MinSizeRel-67afd759257432daca91.json",
+					"name" : "cppast_example_comparison",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_documentation_generator::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_documentation_generator-MinSizeRel-4fc0c92379a6afbfd2d9.json",
+					"name" : "cppast_example_documentation_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_category::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_category-MinSizeRel-5efdf73f853c22c9a7fc.json",
+					"name" : "cppast_example_enum_category",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_to_string::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_to_string-MinSizeRel-683ae8dcda3c06ef0997.json",
+					"name" : "cppast_example_enum_to_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_serialization::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_serialization-MinSizeRel-e6786e5dd92454976116.json",
+					"name" : "cppast_example_serialization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cppast_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cppast_test-MinSizeRel-707dd5e9707be802d4ad.json",
+					"name" : "cppast_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "cppast_tool::@3475fea270df04150876",
+					"jsonFile" : "target-cppast_tool-MinSizeRel-1836de5859dde126c683.json",
+					"name" : "cppast_tool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "example::@bcd2ae157a273ec79018",
+					"jsonFile" : "target-example-MinSizeRel-3aae68cf21b16a109a76.json",
+					"name" : "example",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "link_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-link_test-MinSizeRel-d5de4f20aed562b96977.json",
+					"name" : "link_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "options_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-options_test-MinSizeRel-3cc6068eb30e06513324.json",
+					"name" : "options_test",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "external/type_safe",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/type_safe",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external/type_safe/external/debug_assert",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/type_safe/external/debug_assert",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "external/cxxopts",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/cxxopts/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "external/cxxopts/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/cxxopts/test",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "example",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "tool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tool",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "cppast",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TYPE_SAFE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DEBUG_ASSERT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "cxxopts",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e072f23643f4b29bac14.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@90159ba5fc7e2b8a1389",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-df098a6d827e72bc0a83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@79993d7452dd04b15938",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4b4bf7981157a5a02ed4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@405efa9f0fb9231605f3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7abb64d028e6287c1470.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-fd3a2bac6348fa2ab3c3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_cppast_tiny_process::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_cppast_tiny_process-RelWithDebInfo-c3521ce92736ff10a803.json",
+					"name" : "_cppast_tiny_process",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cppast::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cppast-RelWithDebInfo-5d4839f1f0c35d63b88b.json",
+					"name" : "cppast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_ast_printer::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_ast_printer-RelWithDebInfo-f67b890c9ee9ba55cba5.json",
+					"name" : "cppast_example_ast_printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_comparison::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_comparison-RelWithDebInfo-9e598904fa61196f2c2e.json",
+					"name" : "cppast_example_comparison",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_documentation_generator::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_documentation_generator-RelWithDebInfo-69f06574b7dad1994aa8.json",
+					"name" : "cppast_example_documentation_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_category::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_category-RelWithDebInfo-6eae8bb9613f4dbd58b5.json",
+					"name" : "cppast_example_enum_category",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_enum_to_string::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_enum_to_string-RelWithDebInfo-ed498ff6dc769c51eb5c.json",
+					"name" : "cppast_example_enum_to_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cppast_example_serialization::@70983d692f648185febe",
+					"jsonFile" : "target-cppast_example_serialization-RelWithDebInfo-91c15442ee607e0b5f30.json",
+					"name" : "cppast_example_serialization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cppast_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cppast_test-RelWithDebInfo-380b87cd46a48eeff2d6.json",
+					"name" : "cppast_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "cppast_tool::@3475fea270df04150876",
+					"jsonFile" : "target-cppast_tool-RelWithDebInfo-dcef200f19febe0cbbf3.json",
+					"name" : "cppast_tool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "example::@bcd2ae157a273ec79018",
+					"jsonFile" : "target-example-RelWithDebInfo-f1dd9c095c3a25f8acee.json",
+					"name" : "example",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "link_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-link_test-RelWithDebInfo-50ee498ebf39c0aa9f68.json",
+					"name" : "link_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "options_test::@6b1d09c299b73f2d2224",
+					"jsonFile" : "target-options_test-RelWithDebInfo-2e1bafc0ed39467227c8.json",
+					"name" : "options_test",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/testdummyrepo/cppast-master/build",
+		"source" : "D:/testdummyrepo/cppast-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

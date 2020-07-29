@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\testdummyrepo\cppast-master\example\comparison.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\example\example_parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\aligned_union.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\all_of.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\assert.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\assign_or_construct.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\constant_parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\copy_move_control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\force_inline.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\is_nothrow_swappable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\map_invoke.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\variant_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\arithmetic_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\boolean.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\bounded_type.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\compact_optional.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\constrained_type.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\deferred_construction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\downcast.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\flag.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\flag_set.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\floating_point.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\index.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\narrow_cast.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\optional.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\optional_ref.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\output_parameter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\reference.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\strong_typedef.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\tagged_union.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\variant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\visitor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert\debug_assert.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\testdummyrepo\cppast-master\example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7811F913-A2B3-3A5A-A406-7B1B576437B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{690BDA9D-DE35-320D-92CF-50860BD0E044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

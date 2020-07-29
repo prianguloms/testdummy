@@ -1,0 +1,60 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "cppast_example_serialization::@70983d692f648185febe"
+		},
+		{
+			"id" : "cppast_example_documentation_generator::@70983d692f648185febe"
+		},
+		{
+			"id" : "cppast::@145eef247bfb46b6828c"
+		},
+		{
+			"id" : "cppast_test::@36f028580bb02cc8272a"
+		},
+		{
+			"id" : "cppast_example_ast_printer::@70983d692f648185febe"
+		},
+		{
+			"id" : "cppast_example_comparison::@70983d692f648185febe"
+		},
+		{
+			"id" : "cppast_example_enum_category::@70983d692f648185febe"
+		},
+		{
+			"id" : "cppast_example_enum_to_string::@70983d692f648185febe"
+		},
+		{
+			"id" : "cppast_tool::@3475fea270df04150876"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

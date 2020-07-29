@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"external/cxxopts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "link_test::@6b1d09c299b73f2d2224"
+		},
+		{
+			"id" : "example::@bcd2ae157a273ec79018"
+		},
+		{
+			"id" : "options_test::@6b1d09c299b73f2d2224"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@405efa9f0fb9231605f3",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "external/cxxopts",
+		"source" : "external/cxxopts"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

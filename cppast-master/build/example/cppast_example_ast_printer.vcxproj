@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C294848-8549-3519-913E-4F713564578B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cppast_example_ast_printer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\testdummyrepo\cppast-master\build\example\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cppast_example_ast_printer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cppast_example_ast_printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\testdummyrepo\cppast-master\build\example\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cppast_example_ast_printer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cppast_example_ast_printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\testdummyrepo\cppast-master\build\example\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cppast_example_ast_printer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cppast_example_ast_printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\testdummyrepo\cppast-master\build\example\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cppast_example_ast_printer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cppast_example_ast_printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CPPAST_VERSION_MINOR="0";CPPAST_VERSION_MAJOR="0";CPPAST_VERSION_STRING="0.0";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY="C:/Program Files/LLVM/bin/clang.exe";CPPAST_CLANG_VERSION_STRING="10.0.0";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CPPAST_VERSION_MINOR=\"0\";CPPAST_VERSION_MAJOR=\"0\";CPPAST_VERSION_STRING=\"0.0\";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY=\"C:/Program Files/LLVM/bin/clang.exe\";CPPAST_CLANG_VERSION_STRING=\"10.0.0\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Debug\cppast.lib;..\Debug\_cppast_tiny_process.lib;C:\Program Files\LLVM\lib\libclang.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/testdummyrepo/cppast-master/build/example/Debug/cppast_example_ast_printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/testdummyrepo/cppast-master/build/example/Debug/cppast_example_ast_printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CPPAST_VERSION_MINOR="0";CPPAST_VERSION_MAJOR="0";CPPAST_VERSION_STRING="0.0";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY="C:/Program Files/LLVM/bin/clang.exe";CPPAST_CLANG_VERSION_STRING="10.0.0";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CPPAST_VERSION_MINOR=\"0\";CPPAST_VERSION_MAJOR=\"0\";CPPAST_VERSION_STRING=\"0.0\";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY=\"C:/Program Files/LLVM/bin/clang.exe\";CPPAST_CLANG_VERSION_STRING=\"10.0.0\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Release\cppast.lib;..\Release\_cppast_tiny_process.lib;C:\Program Files\LLVM\lib\libclang.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/testdummyrepo/cppast-master/build/example/Release/cppast_example_ast_printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/testdummyrepo/cppast-master/build/example/Release/cppast_example_ast_printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CPPAST_VERSION_MINOR="0";CPPAST_VERSION_MAJOR="0";CPPAST_VERSION_STRING="0.0";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY="C:/Program Files/LLVM/bin/clang.exe";CPPAST_CLANG_VERSION_STRING="10.0.0";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CPPAST_VERSION_MINOR=\"0\";CPPAST_VERSION_MAJOR=\"0\";CPPAST_VERSION_STRING=\"0.0\";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY=\"C:/Program Files/LLVM/bin/clang.exe\";CPPAST_CLANG_VERSION_STRING=\"10.0.0\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\MinSizeRel\cppast.lib;..\MinSizeRel\_cppast_tiny_process.lib;C:\Program Files\LLVM\lib\libclang.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/testdummyrepo/cppast-master/build/example/MinSizeRel/cppast_example_ast_printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/testdummyrepo/cppast-master/build/example/MinSizeRel/cppast_example_ast_printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CPPAST_VERSION_MINOR="0";CPPAST_VERSION_MAJOR="0";CPPAST_VERSION_STRING="0.0";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY="C:/Program Files/LLVM/bin/clang.exe";CPPAST_CLANG_VERSION_STRING="10.0.0";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CPPAST_VERSION_MINOR=\"0\";CPPAST_VERSION_MAJOR=\"0\";CPPAST_VERSION_STRING=\"0.0\";TYPE_SAFE_ENABLE_ASSERTIONS=0;TYPE_SAFE_ENABLE_PRECONDITION_CHECKS=1;TYPE_SAFE_ENABLE_WRAPPER=1;TYPE_SAFE_ARITHMETIC_POLICY=1;CPPAST_CLANG_BINARY=\"C:/Program Files/LLVM/bin/clang.exe\";CPPAST_CLANG_VERSION_STRING=\"10.0.0\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\testdummyrepo\cppast-master\src\..\include;D:\testdummyrepo\cppast-master\external\type_safe\include;D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert;D:\testdummyrepo\cppast-master\external\tiny-process-library;C:\Program Files\LLVM\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\RelWithDebInfo\cppast.lib;..\RelWithDebInfo\_cppast_tiny_process.lib;C:\Program Files\LLVM\lib\libclang.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/testdummyrepo/cppast-master/build/example/RelWithDebInfo/cppast_example_ast_printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/testdummyrepo/cppast-master/build/example/RelWithDebInfo/cppast_example_ast_printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\testdummyrepo\cppast-master\example\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/testdummyrepo/cppast-master/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/testdummyrepo/cppast-master -BD:/testdummyrepo/cppast-master/build --check-stamp-file D:/testdummyrepo/cppast-master/build/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\testdummyrepo\cppast-master\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/testdummyrepo/cppast-master/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/testdummyrepo/cppast-master -BD:/testdummyrepo/cppast-master/build --check-stamp-file D:/testdummyrepo/cppast-master/build/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\testdummyrepo\cppast-master\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/testdummyrepo/cppast-master/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/testdummyrepo/cppast-master -BD:/testdummyrepo/cppast-master/build --check-stamp-file D:/testdummyrepo/cppast-master/build/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\testdummyrepo\cppast-master\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/testdummyrepo/cppast-master/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/testdummyrepo/cppast-master -BD:/testdummyrepo/cppast-master/build --check-stamp-file D:/testdummyrepo/cppast-master/build/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\testdummyrepo\cppast-master\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\testdummyrepo\cppast-master\example\ast_printer.cpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\example\example_parser.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\aligned_union.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\all_of.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\assert.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\assign_or_construct.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\constant_parser.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\copy_move_control.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\force_inline.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\is_nothrow_swappable.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\map_invoke.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\detail\variant_impl.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\config.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\arithmetic_policy.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\boolean.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\bounded_type.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\compact_optional.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\constrained_type.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\deferred_construction.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\downcast.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\flag.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\flag_set.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\floating_point.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\index.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\integer.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\narrow_cast.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\optional.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\optional_ref.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\output_parameter.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\reference.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\strong_typedef.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\tagged_union.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\types.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\variant.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\include\type_safe\visitor.hpp" />
+    <ClInclude Include="D:\testdummyrepo\cppast-master\external\type_safe\external\debug_assert\debug_assert.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\testdummyrepo\cppast-master\build\ZERO_CHECK.vcxproj">
+      <Project>{5F64AE6D-7345-3D8C-8557-F73B67BC3827}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\testdummyrepo\cppast-master\build\_cppast_tiny_process.vcxproj">
+      <Project>{E9F0CA18-EC13-370C-908B-12F2F34BFD55}</Project>
+      <Name>_cppast_tiny_process</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\testdummyrepo\cppast-master\build\src\cppast.vcxproj">
+      <Project>{E918CFF1-A28C-3D46-8016-9669D9A0AD7D}</Project>
+      <Name>cppast</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

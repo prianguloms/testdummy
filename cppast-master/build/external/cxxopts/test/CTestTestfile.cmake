@@ -1,0 +1,12 @@
+# CMake generated Testfile for 
+# Source directory: D:/testdummyrepo/cppast-master/external/cxxopts/test
+# Build directory: D:/testdummyrepo/cppast-master/build/external/cxxopts/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(options "options_test")
+set_tests_properties(options PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/external/cxxopts/test/CMakeLists.txt;4;add_test;D:/testdummyrepo/cppast-master/external/cxxopts/test/CMakeLists.txt;0;")
+add_test(find-package-test "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe" "-C" "--build-and-test" "D:/testdummyrepo/cppast-master/external/cxxopts/test/find-package-test" "D:/testdummyrepo/cppast-master/build/external/cxxopts/test/find-package-test" "--build-generator" "Visual Studio 16 2019" "--build-makeprogram" "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" "--build-options" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe" "-DCMAKE_BUILD_TYPE=" "-Dcxxopts_DIR=D:/testdummyrepo/cppast-master/build/external/cxxopts")
+set_tests_properties(find-package-test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/external/cxxopts/test/CMakeLists.txt;7;add_test;D:/testdummyrepo/cppast-master/external/cxxopts/test/CMakeLists.txt;0;")
+add_test(add-subdirectory-test "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe" "-C" "--build-and-test" "D:/testdummyrepo/cppast-master/external/cxxopts/test/add-subdirectory-test" "D:/testdummyrepo/cppast-master/build/external/cxxopts/test/add-subdirectory-test" "--build-generator" "Visual Studio 16 2019" "--build-makeprogram" "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" "--build-options" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe" "-DCMAKE_BUILD_TYPE=")
+set_tests_properties(add-subdirectory-test PROPERTIES  _BACKTRACE_TRIPLES "D:/testdummyrepo/cppast-master/external/cxxopts/test/CMakeLists.txt;21;add_test;D:/testdummyrepo/cppast-master/external/cxxopts/test/CMakeLists.txt;0;")
